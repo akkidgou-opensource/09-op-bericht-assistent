@@ -1,0 +1,4 @@
+GraSCCo - Graz Synthetic Clinical text Corpus
+Quelle: https://doi.org/10.5281/zenodo.6539131
+Lizenz laut Zenodo: CC BY 4.0
+Alle Namen und Daten sind frei erfunden. Medizinische Plausibilitaet ist nicht garantiert.

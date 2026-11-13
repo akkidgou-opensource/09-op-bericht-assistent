@@ -6,6 +6,7 @@ Für diesen Use Case gibt es keinen passenden offenen Datensatz: Echte OP-Diktat
 | Datei | Inhalt | Herkunft und Lizenz |
 |---|---|---|
 | `diktat_01_skript.md` | Ein Diktat zum Vorlesen mit eingebauter Korrektur, dazu Prüffragen | Frei erfunden für den Hackathon, medizinisch nicht geprüft. Frei verwendbar. |
+| `grascco/` | 62 synthetische deutsche Arztbriefe als Fundus für Fachbegriffe und Schreibstil. Es sind Arztbriefe, keine OP-Berichte. | [GraSCCo, Zenodo 10.5281/zenodo.6539131](https://doi.org/10.5281/zenodo.6539131), CC BY 4.0 |
 
 Tonaufnahmen liegen bewusst nicht im Repo. Das Diktat wird vor Ort vorgelesen, das ist näher an der echten Situation als eine Computerstimme.
 
@@ -13,7 +14,7 @@ Tonaufnahmen liegen bewusst nicht im Repo. Das Diktat wird vor Ort vorgelesen, d
 | Weg | Was er kann | Aufwand | Hinweis |
 |---|---|---|---|
 | Spracherkennung des Browsers (Web Speech API) | Wandelt Sprache live in Text um, ohne Schlüssel und ohne Installation | gering, im Spickzettel Block 5 | Funktioniert nicht in jedem Browser. Der Ton geht je nach Browser an einen Dienst im Netz. |
-| [Whisper](https://github.com/openai/whisper) | Offenes Spracherkennungsmodell, läuft lokal auf dem Laptop, gute Ergebnisse auf Deutsch | mittel, braucht Python | Kein Ton verlässt den Rechner. Lizenz auf der Projektseite. |
+| [Whisper](https://github.com/openai/whisper) | Offenes Spracherkennungsmodell, läuft lokal auf dem Laptop, gute Ergebnisse auf Deutsch | mittel, braucht Python | Kein Ton verlässt den Rechner. Lizenz MIT. |
 | [whisper.cpp](https://github.com/ggerganov/whisper.cpp) | Dieselben Modelle, schneller und ohne Python | mittel | Für Teams mit Technik-Erfahrung. Lizenz auf der Projektseite. |
 
 ### So bindet man Whisper an (in einfachen Worten)
