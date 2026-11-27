@@ -18,7 +18,7 @@ OP-Berichte werden meist erst im Nachhinein aus dem Gedächtnis diktiert. Ein Li
 
 ## So startet ihr
 1. Oben auf **Code → Download ZIP** klicken und entpacken.
-2. Im entpackten Ordner ein Terminal öffnen und `claude` eingeben.
+2. Im entpackten Ordner ein Terminal öffnen und `claude` eingeben (bei Codex: `codex`).
 3. `SPICKZETTEL.md` öffnen und mit Block 1 beginnen.
 4. Zwischenstände hochladen: siehe `GITHUB_ANLEITUNG.md`.
 
